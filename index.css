@@ -1,0 +1,651 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  font-family: "Playfair Display", "微軟正黑體";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .box, body .box {
+  width: 600px;
+  height: 400px;
+  border-radius: 15px;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  background: linear-gradient(180deg, #6fc5ff, #F5EBE0);
+}
+html .box .box1, body .box .box1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fde2e4;
+}
+html .box .box1 h4, body .box .box1 h4 {
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  line-height: 35px;
+  opacity: 0.6;
+  color: #6c757d;
+}
+html .box .box2, body .box .box2 {
+  width: 160px;
+  height: 55px;
+  border-radius: 0;
+  position: absolute;
+  left: 80px;
+  top: 40px;
+  background-color: #fde2e4;
+}
+html .box .box2 h4, body .box .box2 h4 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #9e2a2b;
+  opacity: 0;
+}
+html .box .box3, body .box .box3 {
+  width: 160px;
+  height: 55px;
+  border-radius: 0;
+  position: absolute;
+  left: 380px;
+  top: 40px;
+  background-color: #fde2e4;
+}
+html .box .box3 h4, body .box .box3 h4 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #ff6700;
+  opacity: 0;
+}
+html .box .box4, body .box .box4 {
+  width: 160px;
+  height: 55px;
+  border-radius: 0;
+  position: absolute;
+  left: 80px;
+  top: 300px;
+  background-color: #fde2e4;
+}
+html .box .box4 h4, body .box .box4 h4 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #ff6700;
+  opacity: 0;
+}
+html .box .box5, body .box .box5 {
+  width: 160px;
+  height: 55px;
+  border-radius: 0;
+  position: absolute;
+  left: 380px;
+  top: 300px;
+  background-color: #fde2e4;
+}
+html .box .box5 h4, body .box .box5 h4 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #ff6700;
+  opacity: 0;
+}
+html .box:hover .box1 h4, body .box:hover .box1 h4 {
+  opacity: 0;
+  transition: 0.5s 0.5s;
+}
+html .box:active .box2 h4, body .box:active .box2 h4 {
+  opacity: 1;
+  transition: 0.5s 0.5s;
+}
+html .box:active .box3 h4, body .box:active .box3 h4 {
+  opacity: 1;
+  transition: 0.5s 0.5s;
+}
+html .box:active .box4 h4, body .box:active .box4 h4 {
+  opacity: 1;
+  transition: 0.5s 0.5s;
+}
+html .box:active .box5 h4, body .box:active .box5 h4 {
+  opacity: 1;
+  transition: 0.5s 0.5s;
+}
+html .box:active .box1 h4, body .box:active .box1 h4 {
+  opacity: 1;
+  transition: 0.5s;
+}
+html .person, body .person {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  position: absolute;
+  left: 300px;
+  top: 650px;
+  background: linear-gradient(#006d77, #83c5be, #d0f4de, #fff);
+  scale: 1;
+}
+html .person .eyes .Reye, body .person .eyes .Reye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+html .person .eyes .Reyeball, body .person .eyes .Reyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 215px;
+  top: 85px;
+  background-color: #000;
+}
+html .person .eyes .Leye, body .person .eyes .Leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 100px;
+  top: 70px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+html .person .eyes .Leyeball, body .person .eyes .Leyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 115px;
+  top: 85px;
+  background-color: #000;
+}
+html .person .nose, body .person .nose {
+  width: 0;
+  height: 0;
+  border: 40px solid;
+  border-color: transparent transparent #fbb034 transparent;
+  position: absolute;
+  left: 130px;
+  top: 80px;
+}
+html .person .mouth, body .person .mouth {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  position: absolute;
+  left: 140px;
+  top: 200px;
+  background-color: #f00;
+}
+html .person1, body .person1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  position: absolute;
+  left: 400px;
+  top: 450px;
+  background: linear-gradient(#006d77, #83c5be, #d0f4de, #fff);
+  scale: 0.7;
+}
+html .person1 .eyes .Reye, body .person1 .eyes .Reye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+html .person1 .eyes .Reyeball, body .person1 .eyes .Reyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 215px;
+  top: 85px;
+  background-color: #000;
+}
+html .person1 .eyes .Leye, body .person1 .eyes .Leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 100px;
+  top: 70px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+html .person1 .eyes .Leyeball, body .person1 .eyes .Leyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 115px;
+  top: 85px;
+  background-color: #000;
+}
+html .person1 .nose, body .person1 .nose {
+  width: 0;
+  height: 0;
+  border: 40px solid;
+  border-color: transparent transparent #fbb034 transparent;
+  position: absolute;
+  left: 130px;
+  top: 80px;
+}
+html .person1 .mouth, body .person1 .mouth {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  position: absolute;
+  left: 140px;
+  top: 200px;
+  background-color: #f00;
+}
+html .person2, body .person2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  position: absolute;
+  left: 100px;
+  top: 500px;
+  background: linear-gradient(#006d77, #83c5be, #d0f4de, #fff);
+  scale: 0.8;
+}
+html .person2 .eyes .Reye, body .person2 .eyes .Reye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+html .person2 .eyes .Reyeball, body .person2 .eyes .Reyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 215px;
+  top: 85px;
+  background-color: #000;
+}
+html .person2 .eyes .Leye, body .person2 .eyes .Leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 100px;
+  top: 70px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+html .person2 .eyes .Leyeball, body .person2 .eyes .Leyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 115px;
+  top: 85px;
+  background-color: #000;
+}
+html .person2 .nose, body .person2 .nose {
+  width: 0;
+  height: 0;
+  border: 40px solid;
+  border-color: transparent transparent #fbb034 transparent;
+  position: absolute;
+  left: 130px;
+  top: 80px;
+}
+html .person2 .mouth, body .person2 .mouth {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  position: absolute;
+  left: 140px;
+  top: 200px;
+  background-color: #f00;
+}
+html .person3, body .person3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  position: absolute;
+  left: 800px;
+  top: 10px;
+  background: linear-gradient(#006d77, #83c5be, #d0f4de, #fff);
+  scale: 0.2;
+  left: -120px;
+  top: -120px;
+}
+html .person3 .eyes .Reye, body .person3 .eyes .Reye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+html .person3 .eyes .Reyeball, body .person3 .eyes .Reyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 215px;
+  top: 85px;
+  background-color: #000;
+}
+html .person3 .eyes .Leye, body .person3 .eyes .Leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 100px;
+  top: 70px;
+  background-color: #fff;
+  border: solid 1px black;
+}
+html .person3 .eyes .Leyeball, body .person3 .eyes .Leyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 115px;
+  top: 85px;
+  background-color: #000;
+}
+html .person3 .nose, body .person3 .nose {
+  width: 0;
+  height: 0;
+  border: 40px solid;
+  border-color: transparent transparent #fbb034 transparent;
+  position: absolute;
+  left: 130px;
+  top: 80px;
+}
+html .person3 .mouth, body .person3 .mouth {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  position: absolute;
+  left: 140px;
+  top: 200px;
+  background-color: #f00;
+}
+html .person:active, body .person:active {
+  position: absolute;
+  left: 400px;
+  top: 800px;
+  background: linear-gradient(#fb6f92, #ffb3c6, #ffe5ec, #fff);
+}
+html .person:active .nose, body .person:active .nose {
+  position: absolute;
+  left: 180px;
+  top: 70px;
+  transition: 1s;
+}
+html .person:active .mouth, body .person:active .mouth {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #e5989b;
+}
+html .person:active .eyes .Reye, body .person:active .eyes .Reye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 240px;
+  top: 80px;
+}
+html .person:active .eyes .Reyeball, body .person:active .eyes .Reyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 260px;
+  top: 90px;
+  background-color: #000;
+}
+html .person:active .eyes .Leye, body .person:active .eyes .Leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+html .person:active .eyes .Leyeball, body .person:active .eyes .Leyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 170px;
+  top: 90px;
+  background-color: #000;
+}
+html .person1:active, body .person1:active {
+  position: absolute;
+  left: 400px;
+  top: 400px;
+  background: linear-gradient(#fb6f92, #ffb3c6, #ffe5ec, #fff);
+}
+html .person1:active .nose, body .person1:active .nose {
+  position: absolute;
+  left: 180px;
+  top: 70px;
+  transition: 1s;
+}
+html .person1:active .mouth, body .person1:active .mouth {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #e5989b;
+}
+html .person1:active .eyes .Reye, body .person1:active .eyes .Reye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 240px;
+  top: 80px;
+}
+html .person1:active .eyes .Reyeball, body .person1:active .eyes .Reyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 260px;
+  top: 90px;
+  background-color: #000;
+}
+html .person1:active .eyes .Leye, body .person1:active .eyes .Leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+html .person1:active .eyes .Leyeball, body .person1:active .eyes .Leyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 170px;
+  top: 90px;
+  background-color: #000;
+}
+html .person2:active, body .person2:active {
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  background: linear-gradient(#fb6f92, #ffb3c6, #ffe5ec, #fff);
+}
+html .person2:active .nose, body .person2:active .nose {
+  position: absolute;
+  left: 180px;
+  top: 70px;
+  transition: 1s;
+}
+html .person2:active .mouth, body .person2:active .mouth {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #e5989b;
+}
+html .person2:active .eyes .Reye, body .person2:active .eyes .Reye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 240px;
+  top: 80px;
+}
+html .person2:active .eyes .Reyeball, body .person2:active .eyes .Reyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 260px;
+  top: 90px;
+  background-color: #000;
+}
+html .person2:active .eyes .Leye, body .person2:active .eyes .Leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+html .person2:active .eyes .Leyeball, body .person2:active .eyes .Leyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 170px;
+  top: 90px;
+  background-color: #000;
+}
+html .youtubeDisplay:hover .person3, body .youtubeDisplay:hover .person3 {
+  position: absolute;
+  left: 800px;
+  top: 10px;
+  background: linear-gradient(#fb6f92, #ffb3c6, #ffe5ec, #fff);
+  left: -120px;
+  top: -120px;
+}
+html .youtubeDisplay:hover .person3 .nose, body .youtubeDisplay:hover .person3 .nose {
+  position: absolute;
+  left: 180px;
+  top: 70px;
+  transition: 1s;
+}
+html .youtubeDisplay:hover .person3 .mouth, body .youtubeDisplay:hover .person3 .mouth {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #e5989b;
+}
+html .youtubeDisplay:hover .person3 .eyes .Reye, body .youtubeDisplay:hover .person3 .eyes .Reye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 240px;
+  top: 80px;
+}
+html .youtubeDisplay:hover .person3 .eyes .Reyeball, body .youtubeDisplay:hover .person3 .eyes .Reyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 260px;
+  top: 90px;
+  background-color: #000;
+}
+html .youtubeDisplay:hover .person3 .eyes .Leye, body .youtubeDisplay:hover .person3 .eyes .Leye {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+html .youtubeDisplay:hover .person3 .eyes .Leyeball, body .youtubeDisplay:hover .person3 .eyes .Leyeball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 170px;
+  top: 90px;
+  background-color: #000;
+}
+html .youtubeDisplay, body .youtubeDisplay {
+  width: 800px;
+  height: 400px;
+  border-radius: 0;
+  position: absolute;
+  left: 800px;
+  top: 100px;
+}
+html .imageDisplay, body .imageDisplay {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  position: absolute;
+  left: 80px;
+  top: 10px;
+}
+html .imageDisplay .img1, body .imageDisplay .img1 {
+  display: cover;
+}
+html .h5pDisplay, body .h5pDisplay {
+  width: 800px;
+  height: 400px;
+  border-radius: 0;
+  position: absolute;
+  left: 800px;
+  top: 500px;
+}
